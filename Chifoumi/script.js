@@ -9,7 +9,7 @@ function playGame(playerChoice) {
   } else if (
     (playerChoice === "Pierre" && computerChoice === "Ciseaux") ||
     (playerChoice === "Feuille" && computerChoice === "Pierre") ||
-    (playerChoice === "Ciseaux" && computerChoice === "Papier")
+    (playerChoice === "Ciseaux" && computerChoice === "Feuille")
   ) {
     result = "Vous avez gagné !";
   } else {
