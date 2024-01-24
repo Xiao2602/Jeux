@@ -8,7 +8,7 @@ function playGame(playerChoice) {
     result = "C'est une égalité !";
   } else if (
     (playerChoice === "Pierre" && computerChoice === "Ciseaux") ||
-    (playerChoice === "Papier" && computerChoice === "Pierre") ||
+    (playerChoice === "Feuille" && computerChoice === "Pierre") ||
     (playerChoice === "Ciseaux" && computerChoice === "Papier")
   ) {
     result = "Vous avez gagné !";
