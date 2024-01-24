@@ -1,5 +1,5 @@
 function playGame(playerChoice) {
-  var choices = ["rock", "paper", "scissors"];
+  var choices = ["Pierre", "Feuille", "Ciseaux"];
   var computerChoice = choices[Math.floor(Math.random() * 3)];
 
   var result = "";
@@ -7,9 +7,9 @@ function playGame(playerChoice) {
   if (playerChoice === computerChoice) {
     result = "C'est une égalité !";
   } else if (
-    (playerChoice === "rock" && computerChoice === "scissors") ||
-    (playerChoice === "paper" && computerChoice === "rock") ||
-    (playerChoice === "scissors" && computerChoice === "paper")
+    (playerChoice === "Pierre" && computerChoice === "Ciseaux") ||
+    (playerChoice === "Papier" && computerChoice === "Pierre") ||
+    (playerChoice === "Ciseaux" && computerChoice === "Papier")
   ) {
     result = "Vous avez gagné !";
   } else {
